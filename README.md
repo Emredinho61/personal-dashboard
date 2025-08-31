@@ -9,5 +9,7 @@ A self-written dashboard app to keep track of stocks and important news. The das
 ## Features
 
 $\rightarrow$ api access: https://www.alphavantage.co for stocks and global news (market news and sentiment)
+
 $\rightarrow$ TODO's for day to day tasks
+
 $\rightarrow$ $\dots$
