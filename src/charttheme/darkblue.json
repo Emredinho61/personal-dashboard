@@ -1,0 +1,27 @@
+{
+  "color": ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6"],
+  "backgroundColor": "#0e172b",
+  "textStyle": {
+    "color": "#f9fafb"
+  },
+  "title": {
+    "textStyle": {
+      "color": "#f9fafb"
+    }
+  },
+  "xAxis": {
+    "axisLine": { "lineStyle": { "color": "#9ca3af" } },
+    "axisLabel": { "color": "#d1d5db" }
+  },
+  "yAxis": {
+    "axisLine": { "lineStyle": { "color": "#9ca3af" } },
+    "axisLabel": { "color": "#d1d5db" }
+  },
+  "tooltip": {
+    "backgroundColor": "#1f2937",
+    "textStyle": { "color": "#f9fafb" }
+  },
+  "legend": {
+    "textStyle": { "color": "#f9fafb" }
+  }
+}
