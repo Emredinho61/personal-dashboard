@@ -61,8 +61,20 @@ function testfetchalphavantage() {
             option.value = {
                 title: { text: 'IBM Intraday Prices (German Time)' },
                 tooltip: { trigger: 'axis' },
+                dataZoom: [
+                    {
+                        show: true,
+                        realtime: true,
+                        xAxisIndex: [0, 1]
+                    },
+                    {
+                        type: 'inside',
+                        realtime: true,
+                        xAxisIndex: [0, 1]
+                    }
+                ],
                 xAxis: { type: 'category', data: times.value },
-                yAxis: { type: 'value' },
+                yAxis: { type: 'value', min: 'dataMin' },
                 series: [
                     {
                         data: closes.value,
